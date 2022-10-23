@@ -18,4 +18,12 @@ export const WithFallback: StoryObj<IAvatarProps> = {
 		src: undefined,
 		alt: '',
 	},
+
+	argTypes: {
+		src: {
+			control: {
+				type: 'text',
+			},
+		},
+	},
 };

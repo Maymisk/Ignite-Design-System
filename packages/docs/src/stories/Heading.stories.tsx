@@ -7,6 +7,18 @@ export default {
 
 	args: {
 		children: 'Heading',
+
+		size: 'md',
+	},
+
+	argTypes: {
+		size: {
+			options: ['sm', 'md', 'lg', '2xl', '3xl', '4xl', '5xl', '6xl'],
+
+			control: {
+				type: 'inline-radio',
+			},
+		},
 	},
 } as Meta<IHeadingProps>;
 
