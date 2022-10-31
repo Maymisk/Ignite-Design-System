@@ -4,7 +4,7 @@ import { Meta, StoryObj } from '@storybook/react';
 function CheckboxDecorator(Story: any) {
 	return (
 		<Box as={'label'} css={{ display: 'flex', gap: '$2' }}>
-			{Story()}
+			<Story />
 			<Text size={'sm'}>Accept terms of use</Text>
 		</Box>
 	);
